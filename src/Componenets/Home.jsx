@@ -12,7 +12,7 @@ export default function Home({ videos, shorts }) {
     "News",
     "Sports",
   
-    "Comedy",
+    // "Comedy",
     "Entertainment",
     "Technology",
     "Lifestyle",
