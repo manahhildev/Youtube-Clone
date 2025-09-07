@@ -33,10 +33,12 @@ const suggestedVideos = [
   { id: "7Z6iWEmvsQI", title: "SAMAA News Headlines 11 AM | Live News", channel: "SAMAA TV", views: "10K", time: "6 days ago", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZzflAVICQjFluOKMWd0nrIheHrnLG93dHPA&ss" },
   { id: "m2qS0RZJ0QQ", title: "Coke Studio Pakistan | Season 15", channel: "Coke Studio Pakistan", views: "5K", time: "3 days ago", img: "https://i.ytimg.com/vi/RF0t8pS6xLo/hq720.jpg" },
   { id: "9f5U6kzN9D8", title: "Motu Patlu in Gold City | Full Movie", channel: "Wow Kidz", views: "12K", time: "2 days ago", img: "https://i.ytimg.com/vi/Ozpi9kcuqUQ/maxresdefault.jpg" },
-  { id: "pB0wDSF3E8I", title: "Git & GitHub Tutorial for Beginners", channel: "Cooking Skills", views: "28K", time: "4 days ago", img: "https://img-c.udemycdn.com/course/750x422/3352204_9c9a_20.jpg" },
-  { id: "pB0wDSF3E8I", title: "5 Amazing Potato Recipe by Food fusion", channel: "Food Fusion", views: "28K", time: "4 days ago", img: "https://i.ytimg.com/vi/auS412YhYYk/maxresdefault.jpg" },
-  { id: "pB0wDSF3E8I", title: "Geo Headlines 8 PM | Latest Updates", channel: "Geo News", views: "28K", time: "4 days ago", img: "https://www.geo.tv/assets/uploads/updates/2025-09-05/l_video_thumb_image_1677450647.jpg" },
-  { id: "pB0wDSF3E8I", title: "Kesi Teri Khudgharzi Episode 1 | Ary digital", channel: "Ary Digital", views: "28K", time: "4 days ago", img: "https://i.ytimg.com/vi/bCeO3EViVU0/hqdefault.jpg" }
+  { id: "pB0wDSF3E8I", title: "Git & GitHub Tutorial for Beginners", channel: "Cooking Skills", views: "2K", time: "1 days ago", img: "https://img-c.udemycdn.com/course/750x422/3352204_9c9a_20.jpg" },
+  { id: "pB0wDSF3E8I", title: "5 Amazing Potato Recipe by Food fusion", channel: "Food Fusion", views: "11K", time: "9 days ago", img: "https://i.ytimg.com/vi/auS412YhYYk/maxresdefault.jpg" },
+  { id: "pB0wDSF3E8I", title: "Geo Headlines 8 PM | Latest Updates", channel: "Geo News", views: "23K", time: "6 days ago", img: "https://www.geo.tv/assets/uploads/updates/2025-09-05/l_video_thumb_image_1677450647.jpg" },
+  { id: "pB0wDSF3E8I", title: "Kesi Teri Khudgharzi Episode 1 | Ary digital", channel: "Ary Digital", views: "28K", time: "4 days ago", img: "https://i.ytimg.com/vi/bCeO3EViVU0/hqdefault.jpg" },
+    { id: "pB0wDSF3E8I", title: "CSS Tutorial For Beginners | Complete Tutorial", channel: "Apna Collage", views: "21K", time: "7 hours ago", img: "https://i.ytimg.com/vi/ESnrn1kAD4E/maxresdefault.jpg" }
+
 ];
 
 // ✅ Example Shorts Data
@@ -46,9 +48,9 @@ const suggestedShorts = [
   { title: "Crispy Chicken Recipe by Food Fiusion", url: "https://path_to_video3.mp4", thumbnail: "https://i.ytimg.com/vi/gqj00Nl-YT0/hq720.jpg", channel: "Coding Journey" },
   { title: "To 4 Refreshing Iftar Drinks", url: "https://path_to_video2.mp4", thumbnail: "https://i.ytimg.com/vi/Ic2ppjCSZ6Q/hq720.jpg", channel: "CatLover" },
   { title: "Html Basics in 10 Minutes", url: "https://path_to_video2.mp4", thumbnail: "https://i.ytimg.com/vi/DzCsVWlPLEI/hqdefault.jpg", channel: "CatLover" },
-  // { title: "Fitoor Drama Upcoming Episode 10", url: "https://path_to_video2.mp4", thumbnail: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsUYdPXX-BWVMdoRCS4-z630n-XIh5znsb3g&s", channel: "CatLover" },
-  // { title: "Learn Javascript For Beginners", url: "https://path_to_video2.mp4", thumbnail: "https://i.ytimg.com/vi/XAMkViD_eQs/hq720.jpg", channel: "CatLover" },
-  { title: "Tailwind Css Crash Course", url: "https://path_to_video2.mp4", thumbnail: "https://i.ytimg.com/vi/937RnJ38F40/hqdefault.jpg", channel: "CatLover" }
+   { title: "Fitoor Drama Upcoming Episode 10", url: "https://path_to_video2.mp4", thumbnail: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsUYdPXX-BWVMdoRCS4-z630n-XIh5znsb3g&s", channel: "CatLover" },
+  //  { title: "Learn Javascript For Beginners", url: "https://path_to_video2.mp4", thumbnail: "https://i.ytimg.com/vi/XAMkViD_eQs/hq720.jpg", channel: "CatLover" },
+  //  { title: "Tailwind Css Crash Course", url: "https://path_to_video2.mp4", thumbnail: "https://i.ytimg.com/vi/937RnJ38F40/hqdefault.jpg", channel: "CatLover" }
 ];
 
 function App() {

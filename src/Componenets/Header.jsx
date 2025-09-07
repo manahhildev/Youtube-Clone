@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Menu, Search, Mic, Bell, Video, User, ArrowLeft } from "lucide-react";
+import { Link } from "react-router-dom";
 
 export default function Header() {
   const [showMobileSearch, setShowMobileSearch] = useState(false);
@@ -14,30 +15,32 @@ export default function Header() {
               <Menu size={22} />
             </button>
 
-            {/* ✅ Custom YouTube Logo */}
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="90"
-              height="20"
-              viewBox="0 0 90 20"
-              className="h-6 sm:h-7"
-            >
-              <path
-                fill="#FF0000"
-                d="M19.6 3.2c-.2-1-.8-1.8-1.7-2-1.5-.4-7.9-.4-7.9-.4s-6.4 0-7.9.4c-.9.2-1.5 1-1.7 2-.4 1.6-.4 5-.4 5s0 3.4.4 5c.2 1 .8 1.8 1.7 2 1.5.4 7.9.4 7.9.4s6.4 0 7.9-.4c.9-.2 1.5-1 1.7-2 .4-1.6.4-5 .4-5s0-3.4-.4-5z"
-              />
-              <polygon fill="#fff" points="8,6.5 14,10 8,13.5" />
-              <text
-                x="24"
-                y="14"
-                fontFamily="Arial, sans-serif"
-                fontSize="12"
-                fontWeight="bold"
-                fill="#FFFFFF"
+            {/* ✅ YouTube Logo linked to Home */}
+            <Link to="/" className="flex items-center">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="90"
+                height="20"
+                viewBox="0 0 90 20"
+                className="h-6 sm:h-7"
               >
-                YouTube
-              </text>
-            </svg>
+                <path
+                  fill="#FF0000"
+                  d="M19.6 3.2c-.2-1-.8-1.8-1.7-2-1.5-.4-7.9-.4-7.9-.4s-6.4 0-7.9.4c-.9.2-1.5 1-1.7 2-.4 1.6-.4 5-.4 5s0 3.4.4 5c.2 1 .8 1.8 1.7 2 1.5.4 7.9.4 7.9.4s6.4 0 7.9-.4c.9-.2 1.5-1 1.7-2 .4-1.6.4-5 .4-5s0-3.4-.4-5z"
+                />
+                <polygon fill="#fff" points="8,6.5 14,10 8,13.5" />
+                <text
+                  x="24"
+                  y="14"
+                  fontFamily="Arial, sans-serif"
+                  fontSize="12"
+                  fontWeight="bold"
+                  fill="#FFFFFF"
+                >
+                  YouTube
+                </text>
+              </svg>
+            </Link>
           </div>
         )}
 
@@ -86,7 +89,7 @@ export default function Header() {
 
         {/* ✅ Mobile Search Overlay */}
         {showMobileSearch && (
-          <div className="absolute inset-0 bg-zinc-900 flex items-center px-3 py-3 space-x-3 shadow-md mt-5">
+          <div className="absolute inset-0 bg-zinc-900 flex items-center px-3 py-3 space-x-3 shadow-md">
             {/* Back Button */}
             <button
               onClick={() => setShowMobileSearch(false)}
@@ -115,8 +118,8 @@ export default function Header() {
         )}
       </header>
 
-      {/* 👇 Header ke neeche videos ke liye space */}
-      <div className="pt-16 bg-[#0F0F0F]"></div>
+      {/* 👇 Header ke neeche content ke liye space */}
+      <div className="pt-14 bg-[#0F0F0F]"></div>
     </>
   );
 }
